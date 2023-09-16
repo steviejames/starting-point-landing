@@ -118,9 +118,9 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <Link href="#" target="_blank">
+            <a href="https://forms.gle/tajhUUrXm4uZMtN19" target="_blank">
               <ButtonOutline>Obter orçamento</ButtonOutline>
-            </Link>
+            </a>
           </div>
         </nav>
       </header>

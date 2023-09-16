@@ -43,7 +43,7 @@ const Hero = ({
               impulsionar a sua presença online e alcançar resultados
               impressionantes.
             </p>
-            <a href="http://forms.google.com/123456789" target="_blank">
+            <a href="https://forms.gle/tajhUUrXm4uZMtN19" target="_blank">
               <ButtonPrimary>Pedir orçamento</ButtonPrimary>
             </a>
           </div>

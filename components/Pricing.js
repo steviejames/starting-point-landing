@@ -257,7 +257,9 @@ const Pricing = () => {
                   </h5>
                   <p>Contacte-nos agora e obtenha um preço especial.</p>
                 </div>
-                <ButtonPrimary>Contactar</ButtonPrimary>
+                <a href="https://forms.gle/tajhUUrXm4uZMtN19" target="_blank">
+                  <ButtonPrimary>Contactar</ButtonPrimary>
+                </a>
               </div>
               <div
                 className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
