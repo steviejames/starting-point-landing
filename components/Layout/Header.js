@@ -20,16 +20,11 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
+        <nav className="max-w-screen-xl px-6 items-center sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <Logo className="h-8 w-auto mb-6" />
-            <img
-              src="/assets/logo.svg"
-              className="h-8 w-auto mb-6"
-              width={100}
-              height={100}
-              viewBox="0 0 100 100"
-            />
+            <div>
+              <Logo className="h-9 w-auto" />
+            </div>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
