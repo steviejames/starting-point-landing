@@ -173,7 +173,7 @@ const Pricing = () => {
             </ScrollAnimationWrapper>
           </div>
         </div>
-        <div className="flex flex-col w-full my-16">
+        {/* <div className="flex flex-col w-full my-16">
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
@@ -222,7 +222,7 @@ const Pricing = () => {
               />
             </motion.div>
           </ScrollAnimationWrapper>
-        </div>
+              </div>*/}
         <div className="flex flex-col w-full my-16" id="testimoni">
           <ScrollAnimationWrapper>
             <motion.h3
