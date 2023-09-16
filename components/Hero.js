@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Link from "next/link";
 
 const Hero = ({
   listUser = [
@@ -42,7 +43,9 @@ const Hero = ({
               impulsionar a sua presença online e alcançar resultados
               impressionantes.
             </p>
-            <ButtonPrimary>Saber mais</ButtonPrimary>
+            <a href="http://forms.google.com/123456789" target="_blank">
+              <ButtonPrimary>Pedir orçamento</ButtonPrimary>
+            </a>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
