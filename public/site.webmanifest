@@ -1,12 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "LaslesVPN",
-  "short_name": "LaslesVPN",
+  "name": "Starting Point",
+  "short_name": "Starting Point",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#F53838",
-  "description": "LaslesVPN Best VPN For Privacy, Country and Cheapest.",
+  "description": "Starting Point A Melhor agência de marketing digital e criação de apps, e websites em angola",
   "icons": [
     {
       "src": "/favicon/android-icon-36x36.png",

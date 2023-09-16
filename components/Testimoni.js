@@ -10,40 +10,58 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+      name: "Isabel Antunes",
+      image: "https://api.multiavatar.com/Binx.png",
+      city: "Luanda",
+      country: "Angola",
+      rating: 5,
+      testimonial:
+        "Trabalhar com a Starting Point foi uma experiência incrível. Eles desenvolveram o nosso aplicativo móvel e superaram todas as nossas expectativas. Altamente recomendado!",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+      name: "Carlos Mendonça",
+      image: "https://api.multiavatar.com/Binx.png",
+      city: "Benguela",
+      country: "Angola",
+      rating: 4.5,
+      testimonial:
+        "O trabalho da Starting Point no nosso site trouxe um aumento significativo no tráfego e nas conversões. Estamos muito satisfeitos com os resultados!",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+      name: "Sofia Silva",
+      image: "https://api.multiavatar.com/Binx.png",
+      city: "Huambo",
+      country: "Angola",
+      rating: 5,
+      testimonial:
+        "A equipe de marketing da Starting Point ajudou nossa marca a se destacar nas mídias sociais. Eles são criativos, dedicados e altamente profissionais.",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+      name: "José Pereira",
+      image: "https://api.multiavatar.com/Binx.png",
+      city: "Lobito",
+      country: "Angola",
+      rating: 4.8,
+      testimonial:
+        "Os desenvolvedores da Starting Point criaram um aplicativo que se tornou a espinha dorsal do nosso negócio. Eles são especialistas em tecnologia móvel.",
+    },
+    {
+      name: "Marta Santos",
+      image: "https://api.multiavatar.com/Binx.png",
+      city: "Namibe",
+      country: "Angola",
+      rating: 4.7,
+      testimonial:
+        "Nossa parceria com a Starting Point nos deu um site atraente e funcional que reflete nossa marca. Eles são verdadeiros profissionais do design web.",
+    },
+    {
+      name: "Pedro Fernandes",
+      image: "https://api.multiavatar.com/Binx.png",
+      city: "Malanje",
+      country: "Angola",
+      rating: 5,
+      testimonial:
+        "A Starting Point é uma equipe altamente competente e dedicada. Eles sempre entregam resultados excelentes, independentemente do desafio.",
     },
   ],
 }) => {
@@ -116,7 +134,7 @@ const Testimoni = ({
                   </span>
                 </div>
               </div>
-              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+              <p className="mt-5 text-left">“{listTestimonis.testimonial}”.</p>
             </div>
           </div>
         ))}
