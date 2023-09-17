@@ -75,7 +75,9 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     Sob Orçamento
                   </p>
-                  <ButtonOutline>SABER MAIS</ButtonOutline>
+                  <a href="https://forms.gle/tajhUUrXm4uZMtN19" target="_blank">
+                    <ButtonOutline>SABER MAIS</ButtonOutline>
+                  </a>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -122,7 +124,9 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     Sob Orçamento
                   </p>
-                  <ButtonOutline>SABER MAIS</ButtonOutline>
+                  <a href="https://forms.gle/tajhUUrXm4uZMtN19" target="_blank">
+                    <ButtonOutline>SABER MAIS</ButtonOutline>
+                  </a>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -167,7 +171,9 @@ const Pricing = () => {
                     Sob Orçamento
                   </p>
 
-                  <ButtonOutline>SABER MAIS</ButtonOutline>
+                  <a href="https://forms.gle/tajhUUrXm4uZMtN19" target="_blank">
+                    <ButtonOutline>SABER MAIS</ButtonOutline>
+                  </a>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
