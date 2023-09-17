@@ -45,32 +45,32 @@ const Footer = () => {
             Projectos Originais
           </p>
           <ul className="text-black-500 ">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               <a href={"#"} target="_blank">
                 TáPago?
               </a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               <a href={"#"} target="_blank">
                 Convite Digital
               </a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               <a href={"#"} target="_blank">
                 Karona
               </a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               <a href={"#"} target="_blank">
                 Quino
               </a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               <a href={"#"} target="_blank">
                 ReporterX
               </a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               <a href={"#"} target="_blank">
                 Interview
               </a>
@@ -83,10 +83,10 @@ const Footer = () => {
             Principais Parceiros
           </p>
           <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               SafeTech{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               Beehive{" "}
             </li>
           </ul>
