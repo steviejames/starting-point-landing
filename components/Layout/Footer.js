@@ -61,7 +61,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
-              <a href={"#"} target="_blank">
+              <a href={"https://quino.netlify.app"} target="_blank">
                 Quino
               </a>
             </li>
